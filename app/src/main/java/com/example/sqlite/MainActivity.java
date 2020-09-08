@@ -16,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         dbHelper = new DBHelper(this);
-//        insertUser();
-//        getAllUser();
-//        updateUser();
-//        deleteUser();
+        insertUser();
+        getAllUser();
+        updateUser();
+        deleteUser();
     }
 
     public void insertUser() {
